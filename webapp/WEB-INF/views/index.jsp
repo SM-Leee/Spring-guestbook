@@ -39,7 +39,7 @@
 				<td>${vo.name }</td>
 				<td>${vo.reg_date }</td>
 				<td><a
-					href="${pageContext.request.contextPath }/deleteform?no=${vo.no }">삭제</a></td>
+					href="${pageContext.request.contextPath }/delete?no=${vo.no }">삭제</a></td>
 			</tr>
 			<tr>
 				<td colspan=4> ${fn:replace(vo.message, newline,"<br>") }</td>
